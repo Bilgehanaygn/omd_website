@@ -1,0 +1,11 @@
+*{
+    font-size: var(--default-font-size);
+}
+
+#sneakpeek{
+    height:100%;
+}
+
+#sneakpeek:hover{
+    cursor:pointer;
+}

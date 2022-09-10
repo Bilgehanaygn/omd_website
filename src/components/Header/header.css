@@ -1,0 +1,17 @@
+.header-item {
+    margin: auto;
+    padding: 10px;
+    font-size: var(--default-font-size);
+    font-weight: var(--default-font-bold);
+    border-radius: 3px;
+}
+
+.header-item:hover {
+    background-color: var(--theme-color);
+    color:#fff;
+}
+
+.active-header-item {
+    background-color: var(--theme-color);
+    color: #fff;
+}
