@@ -51,7 +51,7 @@ const Header = () => {
             </div>
             <a href="/" > <img src={bombheadzLogo} alt="logo" style={styles.logo} /> </a>
             <div style={{width:"40%", display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
-                <a href="enlightment" className={activeTabName==="enlightenment" ? "header-item active-header-item" : "header-item"} > ENLIGHTENMENT </a>
+                <a href="enlightenment" className={activeTabName==="enlightenment" ? "header-item active-header-item" : "header-item"} > ENLIGHTENMENT </a>
                 <a href="staking" className={activeTabName==="staking" ? "header-item active-header-item" : "header-item"} > STAKING </a>
                 <a href="bombhouse" className={activeTabName==="bombhouse" ? "header-item active-header-item" : "header-item"} > BOMB HOUSE </a>
             </div>

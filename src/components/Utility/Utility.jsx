@@ -42,7 +42,7 @@ const Utility = () => {
                         What is $DYNMT?
                     </div>
                     <div style={styles.answer} >
-                    <br/>
+                    
 
                         $DYNMT is a community utility token.
                     </div>
@@ -52,7 +52,7 @@ const Utility = () => {
                         What are the utilities?
                     </div>
                     <div style={styles.answer} >
-                    <br/>
+                    
                         $DYNMT allows you to purchase all art stuffs in our Marketplaces, participate in Raffles & Auctions in 
                         Bomb House and more.
                         <br/>
@@ -68,7 +68,7 @@ const Utility = () => {
                         What is the supply?
                     </div>
                     <div style={styles.answer} >
-                    <br/>
+                    
                         $DYNMT has a fixed supply of 10.000.000 and can mainly be Earned from NFT Staking,
                         and Mystery Boxes.
                     </div>
@@ -80,7 +80,7 @@ const Utility = () => {
                         How many tokens can be earned by staking?
                     </div>
                     <div style={styles.answer} >
-                    <br/>
+                    
                         Each Degen Bomb NFT stakes 10 $DYNMT/Day.
                     </div>
                     <br/>
@@ -89,7 +89,7 @@ const Utility = () => {
                         What are the mechanisms for stabilizing token?
                     </div>
                     <div style={styles.answer} >
-                    <br/>
+                    
                         Powerful Burning Mechanics including the tokens going to be spent on enlightenment 
                         and raffles make $DYN deflationary and stabilize in the Long-Term perspective.
                     </div>
@@ -109,7 +109,7 @@ const Utility = () => {
                         What is Enlightenment?
                     </div>
                     <div style={styles.answer} >
-                        <br/>
+                        
                         It is the process of leveling your art. Every time you upgraded the level of your NFT,
                         the metadata will be changed. You will be able to see Enlightenment Level as a trait in your NFT,
                         which will notify the level of your NFT.
@@ -120,11 +120,35 @@ const Utility = () => {
                         What are the benefits of upgrading?
                     </div>
                     <div style={styles.answer} >
+                        
+                        Every time your NFT levels up, the art of the NFT will be evolved. 
+                        And every time your NFT levels up the amount of $DYNMT your NFT stakes will be doubled as well.
+                        Below you can find the amount of $DYNMT that is staked by Level 1, Level 2 and Level 3 Bomb Gang NFT.
+
                         <br/>
-                            In every time your NFT levels up, the art of the NFT will be evolved. 
-                            And every time your NFT levels up the amount of $DYNMT your NFT stakes will be doubled as well.                        
                         <br/>
-                        <br/>
+                        <span style={{...styles.answer, fontWeight:500}} >
+                            Level1: 10 $DYNMT/Day 
+                            <br/>
+                            Level2: 20 $DYNMT/Day 
+                            <br/>
+                            Level3: 35 $DYNMT/Day 
+
+
+                            <br/>
+                            <br/>
+                        </span>
+
+                    </div>
+                    <div style={styles.questionHeader} >
+                        Is level 2 or level 3 arts of my NFT going to be random?
+                    </div>
+                    <div style={styles.answer} >
+                        
+                        No, the next level 2 or level3 art of your NFT will be 100% relevant to your level 1 art.
+                        In each level, the leveling is made trait by trait. So if you have a golden base in level 1,
+                        you will have infected golden base in level 2, just like DeGods.
+
                     </div>
 
                 </div>

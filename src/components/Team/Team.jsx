@@ -39,27 +39,27 @@ const Team = () => {
             twitter: "LeifanPOOR",
             role: "Founder",
             image: sixthSneakPeek,
-            description: "Asadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text"
+            description: "Leifan is the co-founder and the team leader of Degen Bomb Gang. He comes up with visionary ideas, and ensures the success is achieved."
         },
         {
             name: "Ronmel",
             role: "Comm. Manager",
             twitter: "Ronmel_Sol",
             image: firstSneakPeek,
-            description: "dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text"
+            description: "Ronmel is an Atadia, Cet, Just Ape, he rocks for almost every project in the space. He has been in the Solana Space for almost a year. He loves the vibes, chills and make the people love the vibes and makes them chill. He takes care of the community."
         },{
             name: "XEN",
             role: "Artist",
             twitter: "XENFT46",
             image: thirdSneakPeek,
-            description: "text dsadasdsadasd dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text"
+            description: "XEN is our super talented artist (you guys can see his artworks in his twitter, he is also the artist of Alpha Pharaohs). He made our complete collection including Level 2s (infected) and Level 3s (robotic) versions of our art."
         },
         {
             name: "Cornflouryyn",
             role: "Developer",
             twitter: "cornflouryyn",
             image: fourthSneakPeek,
-            description: "Asadasdsadasd long long text dsadasdsadasd long long dsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long tedsadasdsadasd long long text dsadasdsadasd long long te text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long textdsadasdsadasd long long text dsadasdsadasd long long text dsadasdsadasd long long text"
+            description: "Cornflouryyn is experienced with web2 for more than 5 years. He is the developer of our team and responsible for front-end and back-end of our leveling system. By the help of a web3 developer, he built the complete art leveling system for us."
         }
     ];
 

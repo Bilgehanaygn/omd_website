@@ -25,7 +25,7 @@ const Footer = () => {
         <div style={styles.footer} >
             <span className='footer-item' >
                 <a>
-                    Powered By
+                    Powered By Xion®
                 </a>
             </span>
             {

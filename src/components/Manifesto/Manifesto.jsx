@@ -17,7 +17,7 @@ const Manifesto = () => {
             paddingTop: "1vw",
             boxSizing: "border-box",
             backgroundColor:"#88dfbd",
-            paddingLeft:15
+            paddingLeft:15,
         },
         mainMobile: {
             height: "calc(100vh - 150px)",
@@ -36,7 +36,7 @@ const Manifesto = () => {
                 <div style={{width:30, fontSize: 35, fontWeight: 700, marginBottom:"2vw", borderBottom: "5px solid #f88378",}} >
                     MANIFESTO
                 </div>
-                <div style={{fontSize:15}} >
+                <div style={{fontSize:15,}} >
                     I'm a member of bomb gang.
                     <br/>
                     <br/>
