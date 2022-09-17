@@ -9,3 +9,10 @@
 #sneakpeek:hover{
     cursor:pointer;
 }
+
+@media only screen and (max-width: 800px) {
+    #sneakpeek{
+        width: 100%;
+        height: auto;
+    }
+}

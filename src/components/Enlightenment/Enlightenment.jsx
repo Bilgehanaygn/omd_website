@@ -1,7 +1,7 @@
 
 
 
-const Enlightment = () => {
+const Enlightenment = () => {
 
 
     return (
@@ -12,4 +12,4 @@ const Enlightment = () => {
 }
 
 
-export default Enlightment;
+export default Enlightenment;
