@@ -1,6 +1,6 @@
 import './enlightenment.css';
 import infectedPotion from '../../assets/infectedpotion.png';
-import roboticPotion from '../../assets/roboticpotion.PNG';
+import roboticPotion from '../../assets/roboticpotion.png';
 import { useState } from 'react';
 
 const Enlightenment = () => {
