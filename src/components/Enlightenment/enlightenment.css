@@ -1,0 +1,54 @@
+#enlightenmentmain{
+    height: calc(100vh - 150px);
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.half-container{
+    width: 35%;
+    height: 80%;
+    cursor: pointer;
+}
+
+
+#sooncontainer{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    font-size: 250px;
+    font-weight: 750;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.soon-item{
+    font-size: inherit;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #enlightenmentmain{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .half-container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #sooncontainer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 90px;
+    }
+}

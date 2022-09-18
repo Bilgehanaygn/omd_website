@@ -6,8 +6,8 @@ const BombHouse = () => {
 
 
     return (
-        <div>
-            dsadsa
+        <div style={{height:"calc(100vh - 150px)"}} >
+            Bomb House
         </div>
     )
 }

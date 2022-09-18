@@ -4,7 +4,7 @@
 const Staking = () => {
 
     return (
-        <div>
+        <div style={{height:"calc(100vh - 150px)"}} >
             STAKING
         </div>
     )
