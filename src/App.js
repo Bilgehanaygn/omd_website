@@ -5,13 +5,17 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Manifesto from './components/Manifesto/Manifesto';
 import Team from './components/Team/Team';
-import BombHouse from './components/BombHouse/BombHouse';
+import GangHouse from './components/GangHouse/GangHouse';
 import Staking from './components/Staking/Staking';
 import Utility from './components/Utility/Utility';
 import Enlightenment from './components/Enlightenment/Enlightenment';
 
 function App() {
+  useEffect(() => {
+    document.title = "Degen Gang";
+  })
   return (
+    
     <div>
       <Header/>
       <Router>
@@ -22,7 +26,7 @@ function App() {
           <Route path='/utility' element={<Utility/>} />
           <Route path='/enlightenment' element={<Enlightenment/>} />
           <Route path='/staking' element={<Staking/>} />
-          <Route path='/bombhouse' element={<BombHouse/>} />
+          <Route path='/ganghouse' element={<GangHouse/>} />
         </Routes>
       </Router>
       <Footer />

@@ -70,7 +70,7 @@ const Manifesto = () => {
                     </span>
                 </div>
             </div>
-            <div style={{height:"100%"}} >
+            <div style={{height:(isMobile ? "50%" : "100%")}} >
                 <img src={manifestoImage} alt="img" style={{width:"100%", height:"100%"}} />
             </div>
 

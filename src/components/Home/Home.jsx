@@ -62,7 +62,7 @@ const Home = () => {
             {
                 isMobile ?
                 <div style={{fontSize: constants.headerFontSize, marginTop:40}} >
-                    Bomb Gang
+                    Degen Ganger
                     <br/>
                     Are u ready?
                 </div>
