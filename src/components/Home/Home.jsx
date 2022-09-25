@@ -7,6 +7,7 @@ import fourthSneakPeek from '../../assets/clickme4.png';
 import fifthSneakPeek from '../../assets/clickme5.png';
 import sixthSneakPeek from '../../assets/clickme6.png'
 import backgroundImage from '../../assets/backgroundBeach.png';
+import mobileHomeHeader from '../../assets/mobilehomeheader.png';
 import { useState } from 'react';
 import constants from '../../constants/constants';
 
@@ -61,10 +62,8 @@ const Home = () => {
         <div style={activeIndex === 2 ? {...styles.main, ...styles.imageBackground} : styles.main} >
             {
                 isMobile ?
-                <div style={{fontSize: constants.headerFontSize, marginTop:40}} >
-                    Degen Ganger
-                    <br/>
-                    Are u ready?
+                <div style={{width:"90%", height:120, marginTop:40}} >
+                    <img src={mobileHomeHeader} alt="img" style={{width:"100%", height:"100%"}} />
                 </div>
                 :
                 null

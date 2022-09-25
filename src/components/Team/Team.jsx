@@ -8,13 +8,13 @@ import { useState } from 'react';
 
 const TeamItem = ({memberData, onClickCallBack}) => {
 
-
+    const isMobile = window.matchMedia("(max-width: 800px)").matches;
 
     return (
         <div style={{ borderRadius: 5}}
             id="membercart" onClick={()=>{onClickCallBack(memberData)}} >
-            <div style={{width:"100%", height:280, marginBottom: 10}} >
-                <img src={memberData.image} alt="img" style={{width:"100%", height:"100%"}} />
+            <div style={isMobile ? {display:"flex"} : {width:"100%", height:280, marginBottom: 10}} >
+                <img src={memberData.image} alt="img" style={{width:"100%", height:(isMobile ? "auto" : "100%")}} />
             </div>
             <div style={{fontSize: 20, fontWeight: constants.fontBoldSize, paddingLeft:20}} >
                 {memberData.name} | {memberData.role}
