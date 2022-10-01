@@ -59,7 +59,7 @@ const Header = () => {
                     <a href="/manifesto" style={{fontSize:22, fontWeight:400}} >Manifesto</a>
                     <a href="/team" style={{fontSize:22, fontWeight:400}} >Team</a>
                     <a href="/utility" style={{fontSize:22, fontWeight:400}} >Utility</a>
-                    <a href="/enlightenment" style={{fontSize:22, fontWeight:400}} >Enlightenment</a>
+                    <a href="/traitmarket" style={{fontSize:22, fontWeight:400}} >Trait Market</a>
                     <a href="/staking" style={{fontSize:22, fontWeight:400}} >Staking</a>
                     <a href="/ganghouse" style={{fontSize:22, fontWeight:400}} >Gang House</a>
                     <div>
@@ -97,7 +97,7 @@ const Header = () => {
             </div>
             <a href="/" > <img src={bombheadzLogo} alt="logo" style={styles.logo} /> </a>
             <div style={{width:"40%", display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
-                <a href="enlightenment" className={activeTabName==="enlightenment" ? "header-item active-header-item" : "header-item"} > ENLIGHTENMENT </a>
+                <a href="traitmarket" className={activeTabName==="traitmarket" ? "header-item active-header-item" : "header-item"} > TRAIT MARKET </a>
                 <a style={{cursor:"pointer"}} id="stak" onClick={()=>{document.getElementById('stak').innerHTML = "SOON"}} 
                 onMouseLeave={()=>{document.getElementById('stak').innerHTML = "STAKING"}}  
                 className={activeTabName==="staking" ? "header-item active-header-item" : "header-item"} > STAKING </a>

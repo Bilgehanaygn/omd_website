@@ -121,20 +121,20 @@ const Utility = () => {
                     </div>
                     <div style={styles.answer} >
                         
-                        Every time your NFT levels up, the art of the NFT will be evolved. 
-                        And every time your NFT levels up the amount of $DYNMT your NFT stakes will be doubled as well.
-                        Below you can find the amount of $DYNMT that is staked by Level 1, Level 2 and Level 3 Bomb Gang NFT.
+                        Every time you buy a new trait to your NFT, the art of the NFT will be evolved. 
+                        And every time you buy a new trait to your NFT the amount of $DYNMT your NFT stakes will be increased.
+                        Below you can find the amount of $DYNMT that is staked by additionally by each trait.
 
                         <br/>
                         <br/>
                         <span style={{...styles.answer, fontWeight:500}} >
-                            Level1: 10 $DYNMT/Day 
+                                Basic: 10 $DYNMT/Day 
                             <br/>
-                            Level2: 20 $DYNMT/Day 
+                                Outfit: Gives 5 $DYNMT/Day extra 
                             <br/>
-                            Level3: 35 $DYNMT/Day 
-
-
+                                Cap: Gives 3 $DYNMT/Day extra 
+                            <br/>
+                                Element: Gives 2 $DYNMT/Day extra
                             <br/>
                             <br/>
                         </span>
