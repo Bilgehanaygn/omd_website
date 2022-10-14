@@ -1,6 +1,6 @@
 import './header.css';
 import '../../constants/styles.css';
-import bombheadzLogo from '../../assets/bombheadz.png';
+import omdLogo from '../../assets/omdLogo.png';
 import { useState } from 'react';
 import magicedenWhiteLogo from '../../assets/magicedenwhite.svg';
 import openseaWhiteLogo from '../../assets/openseawhite.svg';
@@ -35,7 +35,7 @@ const Header = () => {
             <div style={{position:"absolute", top:0, left:0, width:"100%", height:100, zIndex:5, display:"flex",
                 justifyContent:"space-around", alignItems:"center"}} >
                 <div style={{height: isMobile ? 80 : 100}} >
-                    <a href="/" > <img src={bombheadzLogo} alt="logo" style={styles.logo} /> </a>
+                    <a href="/" > <img src={omdLogo} alt="logo" style={styles.logo} /> </a>
                 </div>
                 {
                     modalOpen ? 
@@ -95,7 +95,7 @@ const Header = () => {
                 <a href="team" className={activeTabName==="team" ? "header-item active-header-item" : "header-item"} > TEAM </a>
                 <a href="utility" className={activeTabName==="utility" ? "header-item active-header-item" : "header-item"} > UTILITY </a>
             </div>
-            <a href="/" > <img src={bombheadzLogo} alt="logo" style={styles.logo} /> </a>
+            <a href="/" > <img src={omdLogo} alt="logo" style={styles.logo} /> </a>
             <div style={{width:"40%", display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
                 <a href="traitmarket" className={activeTabName==="traitmarket" ? "header-item active-header-item" : "header-item"} > TRAIT MARKET </a>
                 <a style={{cursor:"pointer"}} id="stak" onClick={()=>{document.getElementById('stak').innerHTML = "SOON"}} 

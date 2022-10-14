@@ -37,36 +37,36 @@ const Manifesto = () => {
                     MANIFESTO
                 </div>
                 <div style={{fontSize:15,}} >
-                    I'm a member of bomb gang.
+                        I'm a member of Deers.
                     <br/>
                     <br/>
-                    I promise, I will gang.
+                        I promise, I will dear.
                     <br/>
-                    I promsie, I will wibe.
+                        I promsie, I will wibe.
                     <br/>
-                    I promise, I will mint.
-                    <br/>
-                    <br/>
-                    Over park, over pale,
-                    <br/>
-                    Thorough flood, thorough fire!
-                    <br/>
-                    I do wander everywhere,
-                    <br/>
-                    Swifter than the moon's sphere;
+                        I promise, I will mint.
                     <br/>
                     <br/>
-                        I was a Bombhead before, 
+                        Over park, over pale,
                     <br/>
-                        I'm a bombhead now,
+                        Thorough flood, thorough fire!
+                    <br/>
+                        I do wander everywhere,
+                    <br/>
+                        Swifter than the moon's sphere;
+                    <br/>
+                    <br/>
+                        I was a dear before, 
+                    <br/>
+                        I'm a Deer now,
                     <br/> 
-                        I will be a bombhead forever.
+                        I will be a deer forever.
                     <br/>
                         From the start of time until the very end.
                     <br/>
                     <br/>
                     <span style={{fontSize:16, fontWeight:600}} >
-                        Why predict the future, when we can BOOOM it?
+                        Why predict the future, when we can dear it?
                     </span>
                 </div>
             </div>

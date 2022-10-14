@@ -1,6 +1,6 @@
 #traitmarketinnermain{
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     left:0;
     width:100vw;
     height:100vh;
-    background-image: url('../../assets//traitmarketbackground2.png');
+    background-image: url('../../assets//traitmarketbackground.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +76,89 @@
 .bn29:hover:before {
     width: 115%;
     height: 115%;
+}
+
+.loading-spinner{
+    width:70px;
+    height:70px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: spinner-keyframes 1.2s linear infinite;
+}
+
+@keyframes spinner-keyframes {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#main-wrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#middle-main-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#trait-wrapper{
+    display:grid;
+    width:100%;
+    grid-template-columns: auto auto auto auto;
+    column-gap:20px;
+    row-gap:15px;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #traitmarketinnermain{
+        overflow-y: auto;
+    }
+    #main-wrapper{
+        flex-direction: column;
+        height:auto;
+    }
+    #middle-main-wrapper{
+        flex-direction: column;
+    }
+    #trait-wrapper{
+        width: 100%;
+        grid-template-columns: auto auto;
+        max-height: 400px;
+        overflow-y: auto;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 

@@ -14,7 +14,7 @@ import TraitMarketInner from './components/TraitMarketInner/TraitMarketInner';
 import React, { FC, useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets';
+import { PhantomWalletAdapter, SlopeWalletAdapter, SolflareWalletAdapter } from '@solana/wallet-adapter-wallets';
 import {WalletModalProvider} from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
 
@@ -23,7 +23,7 @@ require('@solana/wallet-adapter-react-ui/styles.css');
 
 function App() {
   useEffect(() => {
-    document.title = "Degen Gang";
+    document.title = "Oh My Deer";
   })
 
   // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
@@ -42,7 +42,9 @@ function App() {
            * will be compiled into your application, and only the dependencies of wallets that
            * your users connect to will be loaded.
            */
-          new PhantomWalletAdapter()
+          new PhantomWalletAdapter(),
+          new SlopeWalletAdapter(),
+          new SolflareWalletAdapter()
       ],
       []
   );
